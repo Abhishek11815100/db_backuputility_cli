@@ -1,0 +1,30 @@
+2025-10-03T14:01:15.537Z [error]: Command failed: 'mysqldump' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-10-03T14:01:15.541Z [error]: Backup failed: Command failed: mysqldump -h localhost -P 3306 -u undefined -pundefined undefined > dump
+'mysqldump' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-10-03T17:09:33.130Z [info]: Backup completed: dump (Time taken: 1.65s)
+2025-10-03T17:24:19.220Z [info]: Backup completed: dump (Time taken: 0.22s)
+2025-10-03T17:26:34.766Z [error]: Command failed: 2025-10-03T22:56:34.760+0530	Failed: error dumping metadata: error creating directory for metadata file dump\shopping_ms_customer: mkdir dump: The system cannot find the path specified.
+
+2025-10-03T17:26:34.769Z [error]: Backup failed: Command failed: mongodump --host localhost --port 27017 --db shopping_ms_customer --out dump
+2025-10-03T22:56:34.760+0530	Failed: error dumping metadata: error creating directory for metadata file dump\shopping_ms_customer: mkdir dump: The system cannot find the path specified.
+
+2025-10-03T17:33:01.773Z [error]: Command failed: 2025-10-03T23:03:01.765+0530	Failed: error dumping metadata: error creating directory for metadata file dump\shopping_ms_customer: mkdir dump: The system cannot find the path specified.
+
+2025-10-03T17:33:01.776Z [error]: Backup failed: Command failed: mongodump --host localhost --port 27017 --db shopping_ms_customer --out dump
+2025-10-03T23:03:01.765+0530	Failed: error dumping metadata: error creating directory for metadata file dump\shopping_ms_customer: mkdir dump: The system cannot find the path specified.
+
+2025-10-03T17:33:25.868Z [error]: Command failed: 2025-10-03T23:03:25.862+0530	Failed: error dumping metadata: error creating directory for metadata file dump\shopping_ms_customer: mkdir dump: The system cannot find the path specified.
+
+2025-10-03T17:33:25.870Z [error]: Backup failed: Command failed: mongodump --host localhost --port 27017 --db shopping_ms_customer --out dump
+2025-10-03T23:03:25.862+0530	Failed: error dumping metadata: error creating directory for metadata file dump\shopping_ms_customer: mkdir dump: The system cannot find the path specified.
+
+2025-10-03T17:35:32.716Z [info]: Backup completed: dump (Time taken: 0.23s)
+2025-10-03T17:41:14.251Z [info]: Backup completed: dump (Time taken: 0.37s)
+2025-10-03T17:45:42.669Z [info]: Backup completed: dump\shopping_ms_customer_2025-10-03T17-45-42-608Z (Time taken: 0.06s)
+2025-10-03T18:24:44.816Z [info]: Restore successful from dump/shopping_ms_customer
+2025-10-03T18:25:46.684Z [info]: Restore successful from dump/shopping_ms_customer
+2025-10-03T19:40:29.675Z [info]: Restore successful from dump/shopping_ms_customer
